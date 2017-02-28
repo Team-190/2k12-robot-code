@@ -1,0 +1,36 @@
+Button One: Start shooter motor(auto fire if ready)
+Button Two: Manual fire
+Button Three: Stop the shooter
+Button Four: Pick up the balls
+Button Five: Move balls to the shooter
+Button Six: Jog speed down
+Button Seven: Jog speed up
+Button Eight: Jog aim left
+Button Nine: Jog aim right
+Button Ten: Bridge toggle down
+Button Eleven: Bridge toggle middle
+Button Twelve: Bridge toggle up
+
+Manual Buttons:
+1: Shoot
+2 -4: See shared buttons
+5: Jog shooter speed up
+6: Jog shooter speed down
+7: Jog turret aim right
+8: Jog turret aim left
+9 - 11: See shared buttons
+Auto Buttons:
+1: Shoot
+2 - 4: See shared buttons
+5: Jog shooter speed up
+6: Jog shooter speed down
+7: Jog turret aim right
+8: Jog turret aim left
+9 - 11: See shared buttons
+Shared Buttons:
+2: Stop shooter
+3: Auto: Collect
+4: Manual:  Reverse collect
+9: Bridge toggle up
+10: Bridge toggle middle
+11: Bridge toggle down

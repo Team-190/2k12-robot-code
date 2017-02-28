@@ -1,0 +1,91 @@
+
+* Use Cases
+** Tier 1 (Need) [0/10]
+- [ ] STARTED Drive (Tank)
+- [ ] STARTED Drive (Swerve)
+- [ ] Manual Aim
+- [ ] Manual Balance
+- [ ] Picking up Balls
+- [ ] Manual Shooting
+- [ ] Moving Balls up to the Shooter
+- [ ] Push Down the Bridge
+- [ ] Push up the Bridge (physically capable?)
+- [ ] Autonomous Shooting (key)
+** Tier 2 (Want) [0/11]
+- [ ] STARTED Auto Shooting
+- [ ] STARTED Auto Aim
+- [ ] Jog Overide for Aim
+- [ ] STARTED Limit collection to a max of three balls at one time
+- [ ] Show Balance
+- [ ] Show Aim
+- [ ] Autonomous Drive to the Bridge
+- [ ] Autonomous Bridge Toggle
+- [ ] Autonomous Collection
+- [ ] STARTED Signal lights for ball status
+** Tier 3 (Wish) [0/5]
+- [ ] Autonomous Shooting (bridge)
+- [ ] Drive (Field oriented swerve)
+- [ ] STARTED Auto Balance
+- [ ] Signal lights for balancing on the bridge
+- [ ] Display camera images
+** Unclassified
+
+
+* Subsystems
+** Drive Train
+** Shooter
+** Turret
+** Collector Stage
+** Bridge Manipulator
+** Signal Lights?
+** Camera?
+
+
+* Subsystems (Sensors & Actuators)
+** Drive Train
+*** Actuators
+- 4 Drive Motors (4 Jaguars)
+- 1 Swerve Motor (1 Jaguar)
+*** Sensors
+- 2 Drive Encoders (4 digital inputs)
+- 1 Swerve Pot (1 analog input)
+- 1 Gyro? (1 analog input)
+** Shooter
+*** Actuators
+- 2 Shooter Motors (2 Jaguars)
+*** Sensors
+- 1 Shooter Encoder (2 digital inputs)
+** Turret
+*** Objects
+- 1 Turret Motor (1 Jaguar)
+- 1 Turret Pot (1 analog input)
+** Collector Stage
+*** Actuators
+- 3 Collector motors (1 Victor + 2 Spikes)
+*** Sensors
+- 3 Light sensors (3 digital inputs)
+** Bridge Manipulator
+*** Actuators
+- 1 Motor (1 Victor)
+*** Sensors
+- 1 Pot  (1 analog input)
+- 1 Current sensor  (1 analog input) 
+** Signal Lights?
+*** Actuators
+*** Sensors
+** Totals
+*** Actuators
+- 8 Jaguars as 5 PWM outputs
+- 2 Victors as 2 PWM outputs
+- 2 Spikes as 2 Relay outputs
+*** Sensors
+- 3 Encoders as 6 digital inputs
+- 3 Pots as 3 analog inputs
+- 1 Gyro? as 1 analog input
+- 1 Current sensor as 1 analog input
+- 3 Light sensors as 3 digital inputs
+*** Totals
+- PWM Out :: 7
+- Relay Out :: 2
+- Digital Inputs :: 9
+- Analog Inputs :: 4

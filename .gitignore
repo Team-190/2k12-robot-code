@@ -1,0 +1,5 @@
+private/
+build/
+suite/
+*.class
+/SmartDashboard/dist/SmartDashboard.jar
